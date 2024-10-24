@@ -34,7 +34,12 @@ export default function Login() {
         placeholder="Password"
         className="py-2 pl-3 rounded-md"
       />
-      <button onClick={handleLogin} className="bg-gray-100 px-5 py-2 rounded-md">Login</button>
+      <button
+        onClick={handleLogin}
+        className="bg-gray-100 px-5 py-2 rounded-md"
+      >
+        Login
+      </button>
     </div>
   );
 }
